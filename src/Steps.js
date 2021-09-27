@@ -47,7 +47,7 @@ const Steps = () => {
                 <li>DISPLAY CHILD - Onclick run handle click function,<br/> 
                 compare button name to mapped over tasklist, <br/> 
                 and change task.completed. Set new array to replace state tasklist</li>
-                <p>onClick=&#123;() => handleStrikeout(task.task)&#125; <br/>
+                <p>onClick=&#123;() =&gt; handleStrikeout(task.task)&#125; <br/>
                     <br/>
                     const handleStrikeout = (task) =&gt; &#123;  <br/>
         console.log(task)  <br/>
