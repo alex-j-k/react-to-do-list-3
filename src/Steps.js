@@ -77,6 +77,9 @@ const Steps = () => {
         props.setTaskList(listUpdatedForDeletion)  <br/>
     &#125; 
                 </p>
+                <li>To wipe clean form on submit = reset state on submit form, and set value of form to state</li>
+            <p>        setCurrentText('')</p>
+            <p>            &lt;input type="text" value=&#123;currentText&#125; onChange=&#123;handleChange&#125;/&gt; </p>
             </ol>
         </div>
      );
