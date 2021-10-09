@@ -14,12 +14,13 @@ const Input = (props) => {
         e.preventDefault();
         props.addTask(currentText);
         console.log(currentText);
+        setCurrentText('')
     }
 
     return ( 
         <div className="input">
             <form onSubmit={handleSubmit}>
-            <input type="text" onChange={handleChange}/>
+            <input type="text" value={currentText} onChange={handleChange}/>
             <button className="submit" >Submit</button>
             </form>
         </div>

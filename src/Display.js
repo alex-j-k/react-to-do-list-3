@@ -19,7 +19,6 @@ const Display = (props) => {
             return task !== singletask.task
         })
         props.setTaskList(listUpdatedForDeletion)
-
     }
 
     return ( 
